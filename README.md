@@ -11,10 +11,10 @@ This will start the app using webpack-dev-server on http://localhost:3001.It wil
 
 Features
 
-products are displayed in a grid.
+Products are displayed in a grid.
 the user has an option to sort the products in ascending order. Can sort by "size", "price" or "id".
 
-each product has:
+Each product has:
 a "size" field, which is the font-size (in pixels).
 a "price" field, in cents. Formatted as dollars like $3.51.
 a "date" field, which is the date the product was added to the catalog. Dates are displayed in relative time (eg. "3 days ago") unless they are older than 1 week, in which case the full date is displayed.
